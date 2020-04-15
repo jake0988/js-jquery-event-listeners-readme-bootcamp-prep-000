@@ -8,7 +8,8 @@ function frameIt() {
 }
 
 function pressIt() {
-   if ($('input') == 'G') {
+  var key = $(Event.keydown)
+  if (key.which == '71') {
     alert('You pressed a G key')
     return
   }
