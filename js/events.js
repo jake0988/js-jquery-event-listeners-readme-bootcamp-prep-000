@@ -11,7 +11,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
     $("img").addClass("tasty");
-     'img'.class ='tasty'
+     //'img'.class ='tasty'
   })
 
 }
@@ -20,7 +20,7 @@ function pressIt() {
 //'#typing'
     $('input').on('keydown', function(e)) {
       console.log(e);
-  if $('G') {
+  if $(e == '71') {
     alert('You pressed a G key')
 
   }
