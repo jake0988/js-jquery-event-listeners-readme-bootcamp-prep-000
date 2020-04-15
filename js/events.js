@@ -16,17 +16,17 @@ function frameIt() {
 
 }
 
-// function pressIt() {
-// //'#typing'
-//     $('input').on('keydown', function(e)) {
-//       console.log(e);
-//   if $('e' == '71') {
-//     alert('You pressed a G key')
-//
-//   }
-//   return
-// })
-//}
+function pressIt() {
+//'#typing'
+    $('input').on('keydown', function(e)) {
+      console.log(e);
+  if $('e.which == '71') {
+    alert('You pressed a G key')
+
+  }
+  return
+})
+}
 function submitIt() {
   $("form").on("submit", function() {
     alert("Your form is going to be submitted now.")
