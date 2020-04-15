@@ -25,11 +25,7 @@ function pressIt() {
 
   }
   return
-}
-
-
-
-
+})
 }
 function submitIt() {
   $("form").on("submit", function() {
