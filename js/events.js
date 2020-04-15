@@ -9,7 +9,7 @@ function frameIt() {
 
 function pressIt(event) {
   var key = event
-  if (event.which == '71') {
+  if (key== '71') {
     alert('You pressed a G key')
     return
   }
