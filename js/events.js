@@ -9,6 +9,7 @@ function getIt() {
 }
 
 function frameIt() {
+  $('img').on('load', frameIt())
  $("img").addClass("tasty");
   'img'.class ='tasty'
 }
@@ -27,6 +28,7 @@ function pressIt() {
 
 }
 function submitIt() {
+  $("form").on("submit", submitIt())
   alert("Your form is going to be submitted now.")
   return
 }
@@ -37,7 +39,7 @@ $(document).ready(function(){
 
   $('img').on('load', frameIt())
 
-  //$("input").on('keydown', pressIt())
+  $("input").on('keydown', pressIt())
 
 
   $("form").on("submit", submitIt())
