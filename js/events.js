@@ -13,9 +13,9 @@ function pressIt() {
     alert('You pressed a G key')
     return
   }
-  else {
+
     return
-  }
+  
 
 
 }
