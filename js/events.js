@@ -32,14 +32,14 @@ function submitIt() {
 }
 
 $(document).ready(function(){
-  
+
   $('p').on('click',getIt())
-  
+
   $('img').on('load', frameIt())
-  
+
   //$("input").on('keydown', pressIt())
-  
-  
+
+
   $("form").on("submit", submitIt())
 
 });
