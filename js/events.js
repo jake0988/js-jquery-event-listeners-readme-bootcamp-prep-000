@@ -8,14 +8,15 @@ function frameIt() {
 }
 
 function pressIt() {
-
-  if ('G') {
+    $("#typing").on('keydown', function(e)) {
+      console.log(e);
+  if $('G') {
     alert('You pressed a G key')
-    return
-  }
-
-    return
   
+  }
+}
+
+
 
 
 }
