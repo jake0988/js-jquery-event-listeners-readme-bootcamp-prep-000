@@ -1,7 +1,7 @@
 function getIt() {
 
   $('p').on('click', function(e){
-      console.log(e)
+      //console.log(e)
       alert("Hey!")
   })
 
@@ -9,9 +9,11 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('load', frameIt())
- $("img").addClass("tasty");
-  'img'.class ='tasty'
+  $('img').on('load', function() {
+    $("img").addClass("tasty");
+     'img'.class ='tasty'
+  })
+
 }
 
 function pressIt() {
@@ -29,9 +31,10 @@ function pressIt() {
 
 }
 function submitIt() {
-  $("form").on("submit", submitIt())
-  alert("Your form is going to be submitted now.")
-  return
+  $("form").on("submit", function() {
+    alert("Your form is going to be submitted now.")
+    return
+  })
 }
 
 $(document).ready(function(){
