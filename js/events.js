@@ -7,9 +7,9 @@ function frameIt() {
   'img'.class ='tasty'
 }
 
-function pressIt(event) {
-  var key = event
-  if (key == '71') {
+function pressIt() {
+  
+  if (event == '71') {
     alert('You pressed a G key')
     return
   }
