@@ -12,7 +12,7 @@ function pressIt() {
       console.log(e);
   if $('G') {
     alert('You pressed a G key')
-  
+
   }
 }
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
   $('img').on('load', frameIt())
 
-  $("input").on('keydown', pressIt())
+  //$("input").on('keydown', pressIt())
 
 
   $("form").on("submit", submitIt())
