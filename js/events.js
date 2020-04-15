@@ -1,7 +1,7 @@
 function getIt() {
 
   $('p').on('click', function(e){
-      console.log(e)
+      console.log("this is e" e)
       alert("Hey!")
   })
 
