@@ -12,14 +12,14 @@ function getIt() {
 //   'img'.class ='tasty'
 // }
 //
-// function pressIt() {
-//     $('#typing').on('keydown', function(e)) {
-//       console.log(e);
-//   if $('G') {
-//     alert('You pressed a G key')
-//
-//   }
-// }
+function pressIt() {
+    $('#typing').on('keydown', function(e)) {
+      console.log(e);
+  if $('G') {
+    alert('You pressed a G key')
+
+  }
+}
 //
 //
 //
