@@ -7,9 +7,8 @@ function frameIt() {
   'img'.class ='tasty'
 }
 
-function pressIt() {
-  var key = $(Event.keydown)
-  if (key.which == '71') {
+function pressIt(event) {
+  if (event.which == '71') {
     alert('You pressed a G key')
     return
   }
