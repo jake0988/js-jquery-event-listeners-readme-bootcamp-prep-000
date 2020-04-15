@@ -30,7 +30,7 @@ $(document).ready(function(){
 
   $('img').on('load', frameIt())
 
-  $("input").on('keypress', pressIt())
+  $("input").on('keydown', pressIt())
 
 
   $("form").on("submit", submitIt())
